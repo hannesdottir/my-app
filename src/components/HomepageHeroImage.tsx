@@ -6,7 +6,7 @@ const MyComponent: FC = ({}) => {
   return (
     <div className="flex flex-col justify-center items-center py-16">
      <h1 className="text-5xl">
-        Krokad🐟
+        🐟
      </h1>
 
     </div>
