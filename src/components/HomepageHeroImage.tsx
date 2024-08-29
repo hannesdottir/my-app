@@ -6,7 +6,7 @@ const MyComponent: FC = ({}) => {
   return (
     <div className="flex justify-center items-center py-6">
      <h1 className="text-4xl">
-        <p className='text-4xl'>Lorem</p>
+        <p className='text-4xl'>Loremm</p>
      </h1>
 
     </div>
