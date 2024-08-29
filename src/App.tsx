@@ -1,11 +1,11 @@
 import HomepageHeroImage from './components/HomepageHeroImage'
-import Chatbot from './components/Chatbot'
+import ResetPassword from './components/ResetPassword'
 
 function App() {
   return (
-    <div className="bg-gradient-to-r from-sky-400 to-indigo-500 h-screen">
+    <div className="flex justify-center items-center flex-col">
         <HomepageHeroImage/>
-        <Chatbot/>
+        <ResetPassword/>
     </div>
   );
 }
