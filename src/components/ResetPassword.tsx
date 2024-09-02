@@ -1,12 +1,24 @@
+import { log } from 'console';
 import React, { FC } from 'react';
+import { useTranslation } from 'react-i18next';
+
+interface ResetPasswordProps {
+  handleLanguageChange: (newLanguage: string) => void;
+  
+}
 
 
-const MyComponent: FC = ({}) => {
- 
+const ResetPassword: FC<ResetPasswordProps> = ({handleLanguageChange}) => {
+  
+  const { t } = useTranslation();
+
+  console.log(t('title'));
+
   return (
     <div className='flex justify-center flex-col items-center h-2/3 w-11/12 '>
       <div className='w-11/12 mt-12 md:max-w-md'>
-      <h1 className='text-2xl text-slate-600 font-semibold'>Återställ lösenord</h1>
+      <h1 className='text-2xl text-slate-600 font-semibold'>{t('title')}</h1>
+      <button onClick={() => handleLanguageChange('en')}>Byt till engelska</button>
       <div className='flex justify-center flex-col mt-5'>
           <div className='flex justify-center flex-col'>
             <p className='text-blueTextColor text-lg font-semibold'>
@@ -29,4 +41,4 @@ const MyComponent: FC = ({}) => {
   );
 };
 
-export default MyComponent;
+export default ResetPassword;
