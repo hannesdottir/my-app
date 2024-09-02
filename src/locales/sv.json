@@ -1,3 +1,11 @@
 {
-    "title": "Återställ Lösenord"
+    "title": "Återställ Lösenord",
+    "change_to_english_button": "Byt till engelska",
+    "change_to_swedish_button": "Byt till svenska",
+    "change_to_icelandic_button": "Byt till isländska",
+    "choose_password": "Välj nytt lösenord",
+    "confirm_password": "Bekräfta nytt lösenord",
+    "example_email": "exempel@exempel.se",
+    "example_password": "***********",
+    "change_password_button": "Ändra lösenord"
 }

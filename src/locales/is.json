@@ -1,3 +1,11 @@
 {
-    "title": "resetta password isländska"
+    "title": "Endurstilla lykilorð",
+    "change_to_english_button": "Breyta í ensku",
+    "change_to_swedish_button": "Breyta í sænsku",
+    "change_to_icelandic_button": "Breyta í íslensku",
+    "choose_password": "Veldu nýtt lykilorð",
+    "confirm_password": "Staðfesta nýtt lykilorð",
+    "example_email": "dæmi@dæmi.is",
+    "example_password": "***********",
+    "change_password_button": "Breyta lykilorði"
 }

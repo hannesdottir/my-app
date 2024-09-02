@@ -1,4 +1,11 @@
 {
     "title": "Reset Password",
-    "apa": "abc"
+    "change_to_english_button": "Change to english",
+    "change_to_swedish_button": "Change to swedish",
+    "change_to_icelandic_button": "Change to icelandic",
+    "choose_password": "Choose new password",
+    "confirm_password": "Confirm password",
+    "example_email": "exemple@exemple.com",
+    "change_password_button": "Change password",
+    "example_password": "***********"
 }
