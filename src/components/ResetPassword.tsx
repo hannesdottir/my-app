@@ -1,23 +1,14 @@
 import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
+import ChangeLanguage from "../components/ChangeLanguage"
+import ReactCountryFlag from "react-country-flag"
 
-interface ResetPasswordProps {
-  handleLanguageChange: (newLanguage: string) => void;
-  
-}
-
-
-const ResetPassword: FC<ResetPasswordProps> = ({handleLanguageChange}) => {
+const ResetPassword: FC = ({}) => {
   
   const { t } = useTranslation();
 
-  console.log(t('title'));
-
   return (
     <div className='flex justify-center flex-col items-center h-2/3 w-11/12 '>
-      <button onClick={() => handleLanguageChange('en')}>{t('change_to_english_button')}</button>
-      <button onClick={() => handleLanguageChange('sv')}>{t('change_to_swedish_button')}</button>
-      <button onClick={() => handleLanguageChange('is')}>{t('change_to_icelandic_button')}</button>
       <div className='w-11/12 mt-12 md:max-w-md'>
       <h1 className='text-2xl text-slate-600 font-semibold'>{t('title')}</h1>
       <div className='flex justify-center flex-col mt-5'>

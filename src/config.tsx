@@ -6,8 +6,8 @@ import icelandic from './locales/is.json';
 
 i18next.use(initReactI18next).init({
     lng: 'sv', // Default language
-    fallbackLng: 'sv', // Default language
-    debug: true, // change to false when done
+    fallbackLng: 'sv',
+    debug: false,
     resources: {
       en: {
         translation: en

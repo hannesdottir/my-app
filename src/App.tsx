@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import i18next from 'i18next';
 import './config';
 import { useTranslation, initReactI18next  } from 'react-i18next';
-import HomepageHeroImage from './components/HomepageHeroImage'
+import Navbar from './components/Navbar'
+import ChangeLanguage from './components/ChangeLanguage'
 import ResetPassword from './components/ResetPassword'
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
 
   return (
     <div className="flex justify-center items-center flex-col">
-        <HomepageHeroImage/>
-        <ResetPassword handleLanguageChange={handleLanguageChange}/>
+        <ChangeLanguage handleLanguageChange={handleLanguageChange}/>
+        <Navbar/>
+        <ResetPassword />
     </div>
   );
 }
