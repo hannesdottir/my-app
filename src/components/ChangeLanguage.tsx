@@ -1,20 +1,35 @@
-import React, { FC } from 'react';
-import ReactCountryFlag from "react-country-flag"
+import React, { FC } from 'react'
+import icelandicFlag from '../images/icelandicFlag.png'
+import swedishFlag from '../images/swedishFlag.png'
+import ukFlag from '../images/ukFlag.png'
 
 interface ResetPasswordProps {
   handleLanguageChange: (newLanguage: string) => void;
 }
 
-const ResetPassword: FC<ResetPasswordProps> = ({handleLanguageChange}) => {
+const ChangeLanguage: FC<ResetPasswordProps> = ({handleLanguageChange}) => {
   
 
   return (
-    <div className='flex w-full justify-end mr-14 mt-2'>
-            <button className="m-1.5" onClick={() => handleLanguageChange('en')}><ReactCountryFlag countryCode="GB" svg style={{ width: '2em', height: '2em',}} title="GB"/></button>
-            <button className="m-1.5" onClick={() => handleLanguageChange('sv')}><ReactCountryFlag countryCode="SE" svg style={{ width: '2em', height: '2em',}} title="SE"/></button>
-            <button className="m-1.5" onClick={() => handleLanguageChange('is')}><ReactCountryFlag countryCode="IS" svg style={{ width: '2em', height: '2em',}} title="IS"/></button>
+    <div className='flex w-full justify-end mr-2 mt-2'>
+       <div className='flex w-full justify-end mr-5 mt-2'>
+        <select className='flex flex-row' onChange={(event) => handleLanguageChange(event.target.value)}>
+          <option value="sv">
+            <img src={swedishFlag} alt="Swedish flag" style={{ width: '2em', height: '2em' }} />
+            <p>sv</p>
+          </option>
+          <option value="en">
+            <img src={ukFlag} alt="UK flag" style={{ width: '2em', height: '2em' }} />
+          <p>en</p>
+          </option>
+          <option value="is">
+            <img src={icelandicFlag} alt="Icelandic flag" style={{ width: '2em', height: '2em' }} />
+          <p>is</p>
+          </option>
+        </select>
+    </div>
     </div>
   );
 };
 
-export default ResetPassword;
+export default ChangeLanguage;
