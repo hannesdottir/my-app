@@ -18,11 +18,13 @@ function App() {
   };
 
   return (
+
     <div className="flex justify-center items-center flex-col">
         <ChangeLanguage handleLanguageChange={handleLanguageChange}/>
         <Navbar/>
         <ResetPassword />
     </div>
+   
   );
 }
 

@@ -1,7 +1,10 @@
 @tailwind base; 
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+  font-family: 'Zen Tokyo Zoo';
+  src: url('https://fonts.gstatic.com/s/zentokyozoo/v15/hC-g6-9q-8-Y304.woff2') format('woff2');
+}
 
 body {
   margin: 0;

@@ -1,7 +1,6 @@
 import React, { FC } from 'react';
 import { useTranslation } from 'react-i18next';
 import ChangeLanguage from "../components/ChangeLanguage"
-import ReactCountryFlag from "react-country-flag"
 
 const ResetPassword: FC = ({}) => {
   

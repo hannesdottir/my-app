@@ -8,6 +8,9 @@ module.exports = {
         primaryButtonColor: "#0087CC",
         primaryButtonBorderColor: "#0087CC",
       },
+      fontFamily: {
+        "zen-tokyo-zoo": ["Zen Tokyo Zoo", "sans-serif"],
+      },
     },
   },
   plugins: [],
