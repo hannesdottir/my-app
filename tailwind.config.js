@@ -9,7 +9,9 @@ module.exports = {
         primaryButtonBorderColor: "#0087CC",
       },
       fontFamily: {
-        "zen-tokyo-zoo": ["Zen Tokyo Zoo", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+        geo: ["Geo", "sans-serif"],
+        zenTokyoZoo: ["Zen Tokyo Zoo", "system-ui"],
       },
     },
   },

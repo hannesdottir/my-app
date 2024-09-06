@@ -5,8 +5,8 @@ const MyComponent: FC = ({}) => {
  
   return (
     <div className="flex justify-center items-center">
-     <h1 className="text-4xl">
-        <p className='text-4xl zen-tokyo-zoo'>Loremm</p>
+     <h1 className="text-4xl mt-4">
+        <p className='text-7xl font-geo'>Krokad</p>
      </h1>
     </div>
   );
