@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.0deb4fa1.css",
-    "main.js": "/my-app/static/js/main.1162d225.js",
+    "main.css": "/my-app/static/css/main.48bb4cc5.css",
+    "main.js": "/my-app/static/js/main.2ab8ad08.js",
     "static/js/453.ed3810f9.chunk.js": "/my-app/static/js/453.ed3810f9.chunk.js",
     "static/media/ukFlag.png": "/my-app/static/media/ukFlag.b9a2ba74e5f8a55977e7.png",
     "static/media/icelandicFlag.png": "/my-app/static/media/icelandicFlag.4ad94faad4a6c909df33.png",
     "static/media/swedishFlag.png": "/my-app/static/media/swedishFlag.664f7c3745e91054033c.png",
     "index.html": "/my-app/index.html",
-    "main.0deb4fa1.css.map": "/my-app/static/css/main.0deb4fa1.css.map",
-    "main.1162d225.js.map": "/my-app/static/js/main.1162d225.js.map",
+    "main.48bb4cc5.css.map": "/my-app/static/css/main.48bb4cc5.css.map",
+    "main.2ab8ad08.js.map": "/my-app/static/js/main.2ab8ad08.js.map",
     "453.ed3810f9.chunk.js.map": "/my-app/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0deb4fa1.css",
-    "static/js/main.1162d225.js"
+    "static/css/main.48bb4cc5.css",
+    "static/js/main.2ab8ad08.js"
   ]
 }
