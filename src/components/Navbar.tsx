@@ -5,7 +5,7 @@ const MyComponent: FC = ({}) => {
  
   return (
     <div className="flex justify-center items-center">
-     <h1 className="text-4xl mt-4">
+     <h1 className="text-4xl mt-7">
         <p className='text-6xl font-geo'>Krokad</p>
      </h1>
     </div>
