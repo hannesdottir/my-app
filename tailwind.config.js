@@ -8,6 +8,8 @@ module.exports = {
         blueTextColor: "#0087CC",
         primaryButtonColor: "#0087CC",
         primaryButtonBorderColor: "#0087CC",
+        validationButtonColor: "#FF7D7D",
+        validationButtonBorderColor: "#FF0000",
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],

@@ -6,5 +6,10 @@
     "confirm_password": "Bekräfta nytt lösenord",
     "example_email": "exempel@exempel.se",
     "example_password": "***********",
-    "change_password_button": "Ändra lösenord"
+    "change_password_button": "Ändra lösenord",
+    "pleaseFillInBothPasswords": "Vänligen fyll i båda fälten",
+    "passwordsDoNotMatch": "Lösenorden stämmer inte överens",
+    "passwordMustBeAtLeast8CharactersLong": "Lösenordet ska vara minst 8 tecken långt",
+    "passwordMustContainAtLeastOneUppercaseLetter": "Lösenordet måste innehålla en stor bokstav",
+    "passwordMustContainAtLeastOneNumber": "Lösenordet måste innehålla minst en siffra"
 }
