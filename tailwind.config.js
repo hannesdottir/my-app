@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        primaryTextColor: "#2F2F2F",
         blueTextColor: "#0087CC",
         primaryButtonColor: "#0087CC",
         primaryButtonBorderColor: "#0087CC",

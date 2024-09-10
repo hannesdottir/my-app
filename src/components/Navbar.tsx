@@ -4,9 +4,9 @@ import React, { FC } from 'react';
 const MyComponent: FC = ({}) => {
  
   return (
-    <div className="flex justify-center items-center">
-     <h1 className="text-4xl mt-7">
-        <p className='text-7xl font-zenTokyoZoo'>krokad</p>
+    <div className='ml-6 mt-1'>
+     <h1>
+        <p className='text text-3xl md:text-5xl font-zenTokyoZoo'>KROKAD</p>
      </h1>
     </div>
   );

@@ -19,9 +19,11 @@ function App() {
 
   return (
 
-    <div className="flex justify-center items-center flex-col">
-        <ChangeLanguage handleLanguageChange={handleLanguageChange}/>
-        <Navbar/>
+    <div>
+        <div className='flex flex-row items-center mt-5'>
+          <Navbar/>
+          <ChangeLanguage handleLanguageChange={handleLanguageChange}/>
+        </div>
         <ResetPassword />
     </div>
    

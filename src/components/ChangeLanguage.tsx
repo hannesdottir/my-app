@@ -25,10 +25,10 @@ const ChangeLanguage: FC<ResetPasswordProps> = ({ handleLanguageChange }) => {
   }
 
   return (
-    <div className='flex w-full justify-end mt-4'>
+    <div className='flex w-full justify-end'>
        {selectedLanguage==="sv" && 
         <button
-          className="inline-flex items-left md:w-48 px-4 py-2 rounded-md border border-gray-200 mr-6"
+          className="inline-flex items-left md:w-48 px-4 py-2 rounded-md border border-gray-200 mr-6 items-center"
           onClick={() => toggleDropdown()}
         >
           <img className="w-8 h-8 mr-1.5" src={swedishFlag} alt="Swedish flag" />
@@ -37,7 +37,7 @@ const ChangeLanguage: FC<ResetPasswordProps> = ({ handleLanguageChange }) => {
         }
         {selectedLanguage==="en" && 
         <button
-          className="inline-flex items-left md:w-48 px-4 py-2 rounded-md border border-gray-200 mr-6"
+          className="inline-flex items-left md:w-48 px-4 py-2 rounded-md border border-gray-200 mr-6 items-center"
           onClick={() => toggleDropdown()}
         >
           <img className="w-8 h-8 mr-1.5" src={ukFlag} alt="English flag" />
@@ -46,7 +46,7 @@ const ChangeLanguage: FC<ResetPasswordProps> = ({ handleLanguageChange }) => {
         }
         {selectedLanguage==="is" && 
       <button
-        className="inline-flex items-left md:w-48 px-4 py-2 rounded-md border border-gray-200 mr-6"
+        className="inline-flex items-left md:w-48 px-4 py-2 rounded-md border border-gray-200 mr-6 items-center"
         onClick={() => toggleDropdown()}
       >
         <img className="w-8 h-8 mr-1.5" src={icelandicFlag} alt="Icelandic flag" />
