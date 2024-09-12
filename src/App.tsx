@@ -4,7 +4,8 @@ import './config';
 import { useTranslation, initReactI18next  } from 'react-i18next';
 import Navbar from './components/Navbar'
 import ChangeLanguage from './components/ChangeLanguage'
-import ResetPassword from './components/ResetPassword'
+import ResetPassword from './pages/ResetPasswordPage'
+import HeroImage from './components/HeroImage';
 
 function App() {
   const { t } = useTranslation();
@@ -24,7 +25,7 @@ function App() {
           <Navbar/>
           <ChangeLanguage handleLanguageChange={handleLanguageChange}/>
         </div>
-        <ResetPassword />
+       <HeroImage/>
     </div>
    
   );
