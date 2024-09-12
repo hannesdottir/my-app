@@ -7,5 +7,10 @@
     "confirm_password": "Staðfesta nýtt lykilorð",
     "example_email": "dæmi@dæmi.is",
     "example_password": "***********",
-    "change_password_button": "Breyta lykilorði"
+    "change_password_button": "Breyta lykilorði",
+    "pleaseFillInBothPasswords": "Vinsamlegast fyllið í báða reitina",
+    "passwordsDoNotMatch": "Lykilorðin þurfa að vera eins",
+    "passwordMustBeAtLeast8CharactersLong": "Lykilorðið þarf að vera að lágmarki 8 stafir",
+    "passwordMustContainAtLeastOneUppercaseLetter": "Lykilorðið þarf að hafa að lágmarki einn hástaf",
+    "passwordMustContainAtLeastOneNumber": "Lykilorðið þarf að hafa að lágmarki eina tölu"
 }
