@@ -1,15 +1,54 @@
 {
-    "title": "Återställ Lösenord",
-    "change_to_swedish_button": "Byt till svenska",
-    "change_to_icelandic_button": "Byt till isländska",
-    "choose_password": "Välj nytt lösenord",
-    "confirm_password": "Bekräfta nytt lösenord",
-    "example_email": "exempel@exempel.se",
-    "example_password": "***********",
-    "change_password_button": "Ändra lösenord",
-    "pleaseFillInBothPasswords": "Vänligen fyll i båda fälten",
-    "passwordsDoNotMatch": "Lösenorden stämmer inte överens",
-    "passwordMustBeAtLeast8CharactersLong": "Lösenordet ska vara minst 8 tecken långt",
-    "passwordMustContainAtLeastOneUppercaseLetter": "Lösenordet måste innehålla en stor bokstav",
-    "passwordMustContainAtLeastOneNumber": "Lösenordet måste innehålla minst en siffra"
+    "resetpassword": {
+        "title": "Återställ Lösenord",
+        "change_to_swedish_button": "Byt till svenska",
+        "change_to_icelandic_button": "Byt till isländska",
+        "choose_password": "Välj nytt lösenord",
+        "confirm_password": "Bekräfta nytt lösenord",
+        "example_email": "exempel@exempel.se",
+        "example_password": "***********",
+        "change_password_button": "Ändra lösenord",
+        "pleaseFillInBothPasswords": "Vänligen fyll i båda fälten",
+        "passwordsDoNotMatch": "Lösenorden stämmer inte överens",
+        "passwordMustBeAtLeast8CharactersLong": "Lösenordet ska vara minst 8 tecken långt",
+        "passwordMustContainAtLeastOneUppercaseLetter": "Lösenordet måste innehålla en stor bokstav",
+        "passwordMustContainAtLeastOneNumber": "Lösenordet måste innehålla minst en siffra"
+}, 
+    "hero": {
+        "primary": "Är du passionerad fiskare?",
+        "secondary": "Då är Krokad perfekta verktyget för dig!"
+},
+    "getapp": {
+        "primary": "Bli din egen fiskeexpert med Krokad",
+        "apple_1": "Ladda ned på",
+        "apple_2": "App Store",
+        "google_play_1": "Skaffa det från",
+        "google_play_2": "Google Play"
+    }, 
+    "infosection": {
+        "title": "Analysera dina fångster, förbättra dina tekiner och maximera din fångstpotential",
+        "primary_1": "Med vår app kan du enkelt:",
+        "secondary_1": "Logga dina fångster",
+        "info_text_1": "Spåra dina fiskeäventyr med en detaljerad fångstlogg. Spåra vikt, längd, art och plats för varje fångst.",
+        "secondary_2": "Se din statistik",
+        "info_text_2": "Få djupgående insikter om dina fiskevanor. Vilken är din favoritplats? Vilken tid på dygnet har du mest tur?",
+        "primary_2": "Varför välja Krokad?",
+        "info_text_3": "Enkel att använda! Vår app är designad för att vara intuitiv och lätt att navigera."
+    },
+    "citat": {
+        "primary": "Ladda ner Krokad idag och börja maximera din fiskepotential!"
+    },
+    "footer": {
+        "language": "svenska",
+        "news": "Få nyheter",
+        "placeholder": "Din email address",
+        "send": "Skicka",
+        "follow": "Följ oss",
+        "contact": "Kontakta oss"
+    },
+    "languagebutton": {
+        "sv": "Svenska",
+        "en": "Engelska",
+        "is": "Isländska"
+    }
 }

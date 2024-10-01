@@ -1,16 +1,55 @@
 {
-    "title": "Endurstilla lykilorð",
-    "change_to_english_button": "Breyta í ensku",
-    "change_to_swedish_button": "Breyta í sænsku",
-    "change_to_icelandic_button": "Breyta í íslensku",
-    "choose_password": "Veldu nýtt lykilorð",
-    "confirm_password": "Staðfesta nýtt lykilorð",
-    "example_email": "dæmi@dæmi.is",
-    "example_password": "***********",
-    "change_password_button": "Breyta lykilorði",
-    "pleaseFillInBothPasswords": "Vinsamlegast fyllið í báða reitina",
-    "passwordsDoNotMatch": "Lykilorðin þurfa að vera eins",
-    "passwordMustBeAtLeast8CharactersLong": "Lykilorðið þarf að vera að lágmarki 8 stafir",
-    "passwordMustContainAtLeastOneUppercaseLetter": "Lykilorðið þarf að hafa að lágmarki einn hástaf",
-    "passwordMustContainAtLeastOneNumber": "Lykilorðið þarf að hafa að lágmarki eina tölu"
+    "resetpassword": {
+        "title": "Endurstilla lykilorð",
+        "change_to_english_button": "Breyta í ensku",
+        "change_to_swedish_button": "Breyta í sænsku",
+        "change_to_icelandic_button": "Breyta í íslensku",
+        "choose_password": "Veldu nýtt lykilorð",
+        "confirm_password": "Staðfesta nýtt lykilorð",
+        "example_email": "dæmi@dæmi.is",
+        "example_password": "***********",
+        "change_password_button": "Breyta lykilorði",
+        "pleaseFillInBothPasswords": "Vinsamlegast fyllið í báða reitina",
+        "passwordsDoNotMatch": "Lykilorðin þurfa að vera eins",
+        "passwordMustBeAtLeast8CharactersLong": "Lykilorðið þarf að vera að lágmarki 8 stafir",
+        "passwordMustContainAtLeastOneUppercaseLetter": "Lykilorðið þarf að hafa að lágmarki einn hástaf",
+        "passwordMustContainAtLeastOneNumber": "Lykilorðið þarf að hafa að lágmarki eina tölu"
+    },
+    "hero": {
+        "primary": "Hefur þú ástríðu fyrir veiði?",
+        "secondary": "Þá er Krokad rétta appið fyrir þig!"
+},
+    "getapp": {
+        "primary": "Lyftu veiðinni þinni upp á nýtt stig",
+        "apple_1": "Sækja frá",
+        "apple_2": "App Store",
+        "google_play_1": "Sækja frá",
+        "google_play_2": "Google Play"
+    },
+    "infosection": {
+        "title": "Skrásettu þínar veiðivenjur, bættu tæknina þína og hámarkaðaðu aflamöguleika þína",
+        "primary_1": "Með appinu okkar getur þú auðveldlega:",
+        "secondary_1": "Haldið til haga veiðunum med því ad skrá niður aflann",
+        "info_text_1": "Skrásettu veiðiævintýri þín. Skráðu allt frá stærð, vikt og tegund til staðsetningar.",
+        "secondary_2": "Haldið utan um upplýsingarnar",
+        "info_text_2": "Fáðu dýpri innsýn. Hvað er uppáhaldsstaðurinn þinn? Á hvaða tíma sólarhringsins er oftast heppnin með þér?",
+        "primary_2": "Hvers vegna að velja Krokad?",
+        "info_text_3": "Einfalt að nota! Appið okkar er hannað með notandann í huga, og er bæði auðvelt að læra á og notendavænt."
+    },
+    "citat": {
+        "primary": "Sæktu Krokad í dag og byrjaðu að hámarka veiðimöguleika þína!"
+    },
+    "footer": {
+        "language": "íslenska",
+        "news": "Fáðu fréttabréf og upplýsingar",
+        "placeholder": "Tölvupóstfang",
+        "send": "Senda",
+        "follow": "Fylgstu með",
+        "contact": "Hafðu samband"
+    },
+    "languagebutton": {
+        "sv": "Sænska",
+        "en": "Enska",
+        "is": "Íslenska"
+    }
 }

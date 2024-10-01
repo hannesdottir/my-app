@@ -1,15 +1,30 @@
-import React, { FC } from 'react';
+import React, { FC, useState } from 'react';
+import ChangeLanguage from './ChangeLanguage';
+import i18next from 'i18next';
+import '../config'
+import { useTranslation, initReactI18next  } from 'react-i18next';
 
 
-const MyComponent: FC = ({}) => {
+const Navbar: FC = ({}) => {
  
+
+  const { t } = useTranslation();
+  //Default language
+  const [language, setLanguage] = useState('sv');   
+ 
+  const handleLanguageChange = (newLanguage: string) => {
+     console.log('Språket är', language);
+    setLanguage(newLanguage);
+    i18next.changeLanguage(newLanguage);
+  };
   return (
-    <div className='ml-6 mt-1'>
-     <h1>
-        <p className='text text-3xl md:text-5xl font-zenTokyoZoo'>KROKAD</p>
+    <div className="flex flex-row items-center justify-between mt-8 px-6">
+     <h1 className='text text-3xl md:text-5xl text-white font-zenTokyoZoo'>
+      KROKAD
      </h1>
+     <ChangeLanguage handleLanguageChange={handleLanguageChange}/>
     </div>
   );
 };
 
-export default MyComponent;
+export default Navbar;

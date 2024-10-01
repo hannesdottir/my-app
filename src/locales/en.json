@@ -1,16 +1,56 @@
 {
-    "title": "Reset Password",
-    "change_to_english_button": "Change to english",
-    "change_to_swedish_button": "Change to swedish",
-    "change_to_icelandic_button": "Change to icelandic",
-    "choose_password": "Choose new password",
-    "confirm_password": "Confirm password",
-    "example_email": "exemple@exemple.com",
-    "change_password_button": "Change password",
-    "example_password": "***********",
-    "pleaseFillInBothPasswords": "Please fill in both passwords",
-    "passwordsDoNotMatch": "Passwords do not match",
-    "passwordMustBeAtLeast8CharactersLong": "Password must be at least 8 characters long",
-    "passwordMustContainAtLeastOneUppercaseLetter": "Password must contain at least one uppercase letter",
-    "passwordMustContainAtLeastOneNumber": "Password must contain at least one number"
+    "resetpassword": {
+        "title": "Reset Password",
+        "change_to_english_button": "Change to english",
+        "change_to_swedish_button": "Change to swedish",
+        "change_to_icelandic_button": "Change to icelandic",
+        "choose_password": "Choose new password",
+        "confirm_password": "Confirm password",
+        "example_email": "exemple@exemple.com",
+        "change_password_button": "Change password",
+        "example_password": "***********",
+        "pleaseFillInBothPasswords": "Please fill in both passwords",
+        "passwordsDoNotMatch": "Passwords do not match",
+        "passwordMustBeAtLeast8CharactersLong": "Password must be at least 8 characters long",
+        "passwordMustContainAtLeastOneUppercaseLetter": "Password must contain at least one uppercase letter",
+        "passwordMustContainAtLeastOneNumber": "Password must contain at least one number"
+    },
+    "hero": {
+        "primary": "Are you a fishing enthusiast?",
+        "secondary":"Then the Krokad app is perfect for you!"
+    },
+    "getapp": {
+        "primary": "Be your own fishing expert with Krokad",
+        "apple_1": "Download on the",
+        "apple_2": "App Store",
+        "google_play_1": "Get it on",
+        "google_play_2": "Google Play"
+    },
+    "infosection": {
+        "title": "Analyze your catches, improve your techniques, and maximize your catch potential",
+        "primary_1": "Our app lets you easily:",
+        "secondary_1": "Log your catches",
+        "info_text_1": "Track your fishing adventures with a detailed catch log. Record the weight, length, species, and location of each catch.",
+        "secondary_2": "View your statistics",
+        "info_text_2": "Gain deep insights into your fishing habits. What is your favorite spot? What time of day are you most successful?",
+        "primary_2": "Why choose Krokad?",
+        "info_text_3": "Easy to use! Our app is designed to be intuitive and easy to navigate."
+    },
+    "citat": {
+        "primary": "Download Krokad today and start maximizing your fishing potential!"
+    },
+    "footer": {
+        "language": "english",
+        "news": "Get news",
+        "placeholder": "Your email address",
+        "send": "Send",
+        "follow": "Follow us",
+        "contact": "Contact us"
+    },
+    "languagebutton": {
+        "sv": "Swedish",
+        "en": "English",
+        "is": "Icelandic"
+    }
 }
+
