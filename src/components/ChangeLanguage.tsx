@@ -28,7 +28,7 @@ const ChangeLanguage: FC<ResetPasswordProps> = ({ handleLanguageChange }) => {
   }
 
   return (
-    <div className='bg-white rounded-md'>
+    <div className='bg-white rounded-md my-8'>
        {selectedLanguage==="sv" && 
         <button
           className="inline-flex items-left md:w-48 pl-4 py-2 rounded-md border border-gray-200 items-center pr-6"

@@ -18,8 +18,8 @@ const Navbar: FC = ({}) => {
     i18next.changeLanguage(newLanguage);
   };
   return (
-    <div className="flex flex-row items-center justify-between mt-8 px-6">
-     <h1 className='text text-3xl md:text-5xl text-white font-zenTokyoZoo'>
+    <div className="flex flex-row items-center justify-between px-6">
+     <h1 className='text text-3xl md:text-5xl text-white font-zenTokyoZoo my-8'>
       KROKAD
      </h1>
      <ChangeLanguage handleLanguageChange={handleLanguageChange}/>
