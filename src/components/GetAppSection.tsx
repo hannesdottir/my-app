@@ -7,7 +7,7 @@ const HeroImage: FC = ({}) => {
   const { t } = useTranslation();
  
   return (
-    <div className='bg-darkBackground p-7 md:p-14'>
+    <div className='bg-darkBackground p-7 md:py-36 md:p-14'>
         <h1 className='text-white font-semibold text-lg md:text-3xl flex justify-center'>{t('getapp.primary')}</h1>
       <div className='flex justify-center my-4 md:mt-8'>
         <div className='flex flex-row justify-center bg-white items-center w-48 h-16  mr-1.5 md:mr-3 rounded-lg drop-shadow'>

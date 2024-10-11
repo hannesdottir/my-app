@@ -5,8 +5,8 @@ const Citat: FC = ({}) => {
   const { t } = useTranslation();
   
   return (
-    <div className='my-11 md:mb-28 mx-5 md:mx-40 md:w-3/5'>
-      <h1 className='text-primaryTextColor pb-10 lg:pt-20 font-extrabold text-lg lg:text-2xl'>Användarvillkor</h1>
+    <div className='my-11 md:mb-60 mx-5 md:mx-40 md:w-3/5 '>
+      <h1 className='text-primaryTextColor pb-10 md:mt-40 font-extrabold text-lg lg:text-2xl'>Användarvillkor</h1>
         <div className='mb-4'>
             <h2 className='text-base font-bold'>1. Introduktion</h2>
             <p> 

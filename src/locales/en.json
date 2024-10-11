@@ -13,7 +13,8 @@
         "passwordsDoNotMatch": "Passwords do not match",
         "passwordMustBeAtLeast8CharactersLong": "Password must be at least 8 characters long",
         "passwordMustContainAtLeastOneUppercaseLetter": "Password must contain at least one uppercase letter",
-        "passwordMustContainAtLeastOneNumber": "Password must contain at least one number"
+        "passwordMustContainAtLeastOneNumber": "Password must contain at least one number",
+        "passwordResetSuccess": "You have now successfully changed your password"
     },
     "hero": {
         "primary": "Are you a fishing enthusiast?",
