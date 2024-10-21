@@ -12,7 +12,8 @@
         "passwordsDoNotMatch": "Lösenorden stämmer inte överens",
         "passwordMustBeAtLeast8CharactersLong": "Lösenordet ska vara minst 8 tecken långt",
         "passwordMustContainAtLeastOneUppercaseLetter": "Lösenordet måste innehålla en stor bokstav",
-        "passwordMustContainAtLeastOneNumber": "Lösenordet måste innehålla minst en siffra"
+        "passwordMustContainAtLeastOneNumber": "Lösenordet måste innehålla minst en siffra",
+        "passwordResetSuccess": "Nu har lösenordet ändrats."
 }, 
     "hero": {
         "primary": "Är du passionerad fiskare?",

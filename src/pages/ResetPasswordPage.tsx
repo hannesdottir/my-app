@@ -45,7 +45,7 @@ const ResetPassword: FC = ({}) => {
         if (result.success) {
           // Hide input fields, button, and show success message
           setShowResetPasswordForm(false);
-          setSuccessMessage(t('resetpassword.passwordResetSuccess'));
+          setSuccessMessage(successMessage);
         } else {
           console.error('Error resetting password:', result.error?.message || 'An error occurred');
           // Update validation state to display an error message
@@ -58,7 +58,7 @@ const ResetPassword: FC = ({}) => {
         }
       } catch (error) {
         console.error('Unexpected error:', error);
-        // Handle unexpected errors (e.g., display a generic error message)
+        // Handle unexpected errors
       }
     }
   };
@@ -110,7 +110,9 @@ const ResetPassword: FC = ({}) => {
         </div>
       ) : (
         <div className='flex justify-center items-center'>
-          <p className='text-lg text-green-500 font-semibold'>{t('passwordResetSuccess')}</p>
+          <div className='my-40'>
+            <p className='text-lg text-green-500 font-semibold'>{t('resetpassword.passwordResetSuccess')}</p>
+          </div>
         </div>
       )}
     </div>

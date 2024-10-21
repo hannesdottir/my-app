@@ -13,7 +13,8 @@
         "passwordsDoNotMatch": "Lykilorðin þurfa að vera eins",
         "passwordMustBeAtLeast8CharactersLong": "Lykilorðið þarf að vera að lágmarki 8 stafir",
         "passwordMustContainAtLeastOneUppercaseLetter": "Lykilorðið þarf að hafa að lágmarki einn hástaf",
-        "passwordMustContainAtLeastOneNumber": "Lykilorðið þarf að hafa að lágmarki eina tölu"
+        "passwordMustContainAtLeastOneNumber": "Lykilorðið þarf að hafa að lágmarki eina tölu",
+        "passwordResetSuccess": "Lykilorðið er breytt."
     },
     "hero": {
         "primary": "Hefur þú ástríðu fyrir veiði?",
