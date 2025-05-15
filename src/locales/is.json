@@ -52,5 +52,18 @@
         "sv": "Sænska",
         "en": "Enska",
         "is": "Íslenska"
+    },
+    "terms": {
+        "h1_title": "Notendaskilmálar",
+        "title_1": "Inngangur",
+        "text_1": "Með því að nota Krokad appið og vefsíðuna staðfestir þú að hafa lesið og skilið þessa skilmála og samþykkir að vera bundinn af þeim. Ef þú samþykkir ekki þessa skilmála skaltu ekki fá aðgang að þjónustunum eða nota þær.",
+        "title_2": "Skráning og aðgangur",
+        "text_2": "Til þess að nota þjónusturnar þarftu að skrá þig. Þú samþykkir að Krokad geti notað notendagögn þín til að veita þjónustu.",
+        "title_3": "App- og vefsíðuinnihald",
+        "text_3": "Eignarhald: Allt efni á vefsíðunni, þar á meðal texti, myndir og grafík, er í eigu Krokad og er verndað með höfundarréttarlögum. Krokad getur breytt efninu hvenær sem er, til dæmis með því að bæta við eða fjarlægja efni. Ekki viðskiptaleg notkun: Þú mátt skoða og hlaða niður efni eingöngu til einkanota, ekki í viðskiptalegum tilgangi. Engar breytingar: Þú mátt ekki breyta, endurgera, dreifa eða sýna efnið án okkar skriflegs samþykkis.",
+        "title_4": "Neytendahegðun",
+        "text_4": "Þú samþykkir að nota ekki appið eða vefsíðuna í ólöglegum eða óheimilum tilgangi, svo sem að trufla, hafa neikvæð áhrif á, skemma eða hindra virkni þjónustunnar.",
+        "title_5": "Hafa samband",
+        "text_5": "Ef þú hefur einhverjar spurningar um þessa skilmála eða appið og vefsíðuna skaltu hafa samband við okkur á krokad@krokad.se"
     }
 }

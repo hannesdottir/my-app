@@ -52,6 +52,19 @@
         "sv": "Swedish",
         "en": "English",
         "is": "Icelandic"
+    },
+    "terms": {
+        "h1_title": "Terms and Conditions",
+        "title_1": "Introduction",
+        "text_1": "By using the services, you acknowledge that you have read and understood these Terms and Conditions and agree to be bound by them. If you do not agree to these terms, do not access or use the services.",
+        "title_2": "Registration and accounts",
+        "text_2": "To use the services you must register. You agree that Krokad may use your user data to provide services.",
+        "title_3": "App and website Content",
+        "text_3": "Ownership: All content on the app and website, including text, images, and graphics, is the property of Krokad and is protected by copyright laws. Krokad may change the content at any time, such as by adding or removing features. Non-commercial use: You may view and download content for personal, non-commercial use only. No modification: You may not modify, reproduce, distribute, or display the content without our prior written consent.",
+        "title_4": "User Conduct",
+        "text_4": "Prohibited activities: You agree to not use the app or website for any illegal or unauthorized purpose, such as disrupt, negatively affect, damage, disable or impair the functioning of the services.",
+        "title_5": "Contact Information",
+        "text_5": "If you have any questions about these terms, app or website, please contact us at krokad@krokad.se"
     }
 }
 

@@ -40,7 +40,7 @@
         "primary": "Ladda ner Krokad idag och börja maximera din fiskepotential!"
     },
     "footer": {
-        "language": "svenska",
+        "language": "svenska", 
         "news": "Få nyheter",
         "placeholder": "Din email address",
         "send": "Skicka",
@@ -51,5 +51,18 @@
         "sv": "Svenska",
         "en": "Engelska",
         "is": "Isländska"
+    },
+    "terms": {
+        "h1_title": "Användarvillkor",
+        "title_1": "Introduktion",
+        "text_1": "Genom att använda Krokads tjänster bekräftar du att du har läst och förstått dessa villkor och samtycker till att vara bunden av dem. Om du inte godkänner dessa villkor, ska du inte komma åt eller använda tjänsterna.",
+        "title_2": "Registrering och konto",
+        "text_2": "För att använda tjänsterna måste du registrera dig. Du samtycker till att Krokad får använda din användardata för att tillhandahålla tjänster.",
+        "title_3": " App- och webbplatsinnehåll",
+        "text_3": "Ägarskap: Allt innehåll på appen och webbplatsen, inklusive text, bilder och grafik, ägs av Krokad och skyddas av upphovsrättslagar. Krokad kan ändra innehållet när som helst, till exempel genom att lägga till eller ta bort funktioner. Icke-kommersiell användning: Du får endast använda och ladda ner innehåll från Krokad för personligt, icke-kommersiellt bruk. Ingen modifiering: Du får inte ändra, reproducera, distribuera eller visa innehållet utan vårt skriftliga samtycke. ",
+        "title_4": "Användarens riktlinjer",
+        "text_4": "Du samtycker till att inte använda appen eller webbplatsen för något olagligt eller obehörigt ändamål, såsom att störa, negativt påverka, skada, inaktivera eller försämra funktionen hos tjänsterna.",
+        "title_5": "Kontaktinformation",
+        "text_5": "Om du har några frågor om dessa villkor, appen eller webbplatsen, vänligen kontakta oss på krokad@krokad.se"
     }
 }
